@@ -1,0 +1,59 @@
+*{
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+html{
+    /* background-color: #fcfcf7; */
+    background-image: url("../img/roses-142876_1920.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom; 
+    min-width: 100%;
+    height: auto;
+}
+
+.bulletSeperator{
+    font-size: 40%;
+    color: lightgrey;
+}
+.bottomBulletSeperator{
+    font-size: 40%;
+    color: whitesmoke;
+}
+
+.socialMedia{
+    margin-right: 1.5vw;
+    margin-top: 2vh;
+}
+
+.framingHR{
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #b2b2b2, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #b2b2b2, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #b2b2b2, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #b2b2b2, #f0f0f0); 
+}
+
+.removeHeaderSpace{
+    margin-bottom: 0;
+}
+
+h1{
+    font-family: 'Playfair Display SC', serif;
+}
+
+.w3-hover-text-rose:hover {
+    color:  rgb(228, 80, 111)!important;
+    text-shadow:  0 6px 20px rgb(128, 113, 118);
+    font-size: 1.2em;
+    transition: font-size .3s;
+}
+.w3-hover-text-roseIcons:hover {
+    color:  rgb(228, 80, 111)!important;
+    text-shadow:  0 6px 20px rgb(128, 113, 118);
+    /* font-size: 1.5em; */
+    transition: font-size .3s;
+}
